@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="560" fill="#ffffff"/>
+
+  <text x="40" y="44" font-size="25" font-weight="600" fill="#1a1a1a">Where this sits</text>
+  <text x="40" y="68" font-size="16" fill="#6b6b6b">The industry agrees verification is the bottleneck. Three vendors ship a version of it. Here is what is left open.</text>
+  <line x1="40" y1="84" x2="960" y2="84" stroke="#d4d0c8" stroke-width="1"/>
+
+  <!-- column headers -->
+  <text x="404" y="126" font-size="14" font-weight="600" text-anchor="middle" fill="#6b6b6b">IBM</text>
+  <text x="404" y="144" font-size="13" text-anchor="middle" fill="#8a8a8a">WCA for Z</text>
+  <text x="546" y="126" font-size="14" font-weight="600" text-anchor="middle" fill="#6b6b6b">AWS</text>
+  <text x="546" y="144" font-size="13" text-anchor="middle" fill="#8a8a8a">Blu Age / Transform</text>
+  <text x="688" y="126" font-size="14" font-weight="600" text-anchor="middle" fill="#6b6b6b">Mech. Orchard</text>
+  <text x="688" y="144" font-size="13" text-anchor="middle" fill="#8a8a8a">Imogen</text>
+
+  <rect x="756" y="106" width="196" height="428" rx="4" fill="#f8f6ff" stroke="#6b4a8a" stroke-width="1.8"/>
+  <text x="854" y="130" font-size="15" font-weight="600" text-anchor="middle" fill="#4a3266">This project</text>
+  <text x="854" y="148" font-size="13" text-anchor="middle" fill="#6b4a8a">GnuCOBOL, open stack</text>
+
+  <line x1="40" y1="158" x2="960" y2="158" stroke="#b8b2a8" stroke-width="1.2"/>
+
+  <!-- rows -->
+  <g font-size="15">
+    <!-- r1 -->
+    <text x="48" y="190" fill="#1a1a1a">Proves behavioural equivalence</text>
+    <text x="404" y="190" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <text x="546" y="190" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <text x="688" y="190" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <text x="854" y="190" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <line x1="40" y1="206" x2="960" y2="206" stroke="#e8e4de"/>
+
+    <!-- r2 -->
+    <text x="48" y="238" fill="#1a1a1a">Runs without a mainframe</text>
+    <text x="404" y="238" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="546" y="238" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="688" y="238" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="854" y="238" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <line x1="40" y1="254" x2="960" y2="254" stroke="#e8e4de"/>
+
+    <!-- r3 -->
+    <text x="48" y="286" fill="#1a1a1a">Runs without captured production traffic</text>
+    <text x="404" y="286" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <text x="546" y="286" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="688" y="286" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="854" y="286" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <line x1="40" y1="302" x2="960" y2="302" stroke="#e8e4de"/>
+
+    <!-- r4 -->
+    <text x="48" y="334" fill="#1a1a1a">Usable before a migration is funded</text>
+    <text x="404" y="334" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="546" y="334" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="688" y="334" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="854" y="334" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <line x1="40" y1="350" x2="960" y2="350" stroke="#e8e4de"/>
+
+    <!-- r5 -->
+    <text x="48" y="382" fill="#1a1a1a">Verdict reported per business rule</text>
+    <text x="404" y="382" font-size="14" text-anchor="middle" fill="#8a8a8a">per test</text>
+    <text x="546" y="382" font-size="14" text-anchor="middle" fill="#8a8a8a">per test</text>
+    <text x="688" y="382" font-size="14" text-anchor="middle" fill="#8a8a8a">per test</text>
+    <text x="854" y="382" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <line x1="40" y1="398" x2="960" y2="398" stroke="#e8e4de"/>
+
+    <!-- r6 -->
+    <text x="48" y="430" fill="#1a1a1a">Flags rules its own AI got wrong</text>
+    <text x="404" y="430" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="546" y="430" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="688" y="430" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="854" y="430" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <line x1="40" y1="446" x2="960" y2="446" stroke="#e8e4de"/>
+
+    <!-- r7 -->
+    <text x="48" y="478" fill="#1a1a1a">Measures the strength of its own claim</text>
+    <text x="404" y="478" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="546" y="478" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="688" y="478" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="854" y="478" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+    <line x1="40" y1="494" x2="960" y2="494" stroke="#e8e4de"/>
+
+    <!-- r8 -->
+    <text x="48" y="524" font-weight="600" fill="#1a1a1a">Checks the legacy against the regulator</text>
+    <text x="404" y="524" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="546" y="524" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="688" y="524" font-size="18" text-anchor="middle" fill="#b3402f">&#10007;</text>
+    <text x="854" y="524" font-size="18" text-anchor="middle" fill="#2e7d5b">&#10003;</text>
+  </g>
+
+  <text x="48" y="548" font-size="13" font-style="italic" fill="#8a8a8a">Every product above treats the legacy program as correct by definition. That assumption is the opening.</text>
+</svg>

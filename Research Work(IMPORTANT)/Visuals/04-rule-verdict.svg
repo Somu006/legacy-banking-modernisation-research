@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="640" fill="#ffffff"/>
+
+  <text x="40" y="44" font-size="25" font-weight="600" fill="#1a1a1a">What it means for a business rule to be proven</text>
+  <text x="40" y="68" font-size="16" fill="#6b6b6b">Executing a line is not testing the rule it encodes. Three conditions, three verdicts.</text>
+  <line x1="40" y1="84" x2="960" y2="84" stroke="#d4d0c8" stroke-width="1"/>
+
+  <!-- the rule -->
+  <rect x="270" y="106" width="460" height="62" rx="4" fill="#f7f5f2" stroke="#b8b2a8" stroke-width="1.3"/>
+  <text x="500" y="130" font-size="15" font-family="Consolas, monospace" text-anchor="middle" fill="#6b6b6b">R-04 &#183; lines 212&#8211;215</text>
+  <text x="500" y="154" font-size="17" font-weight="600" text-anchor="middle" fill="#1a1a1a">&#8220;Balances above &#8377;1,00,000 earn the differential rate.&#8221;</text>
+
+  <!-- test 1 -->
+  <path d="M500 168 L500 196" stroke="#6b6b6b" stroke-width="1.5" marker-end="url(#a4)"/>
+  <rect x="310" y="200" width="380" height="54" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4"/>
+  <text x="500" y="222" font-size="16" font-weight="600" text-anchor="middle" fill="#1a1a1a">1 &#183; Reached?</text>
+  <text x="500" y="243" font-size="14" text-anchor="middle" fill="#6b6b6b">did any input execute lines 212&#8211;215?</text>
+  <path d="M690 227 L800 227" stroke="#b8860b" stroke-width="1.4" marker-end="url(#agold4)"/>
+  <text x="806" y="222" font-size="14" font-weight="600" fill="#7a5a08">no</text>
+  <text x="806" y="240" font-size="13" fill="#7a5a08">&#8594; UNPROVEN</text>
+
+  <!-- test 2 -->
+  <path d="M500 254 L500 282" stroke="#6b6b6b" stroke-width="1.5" marker-end="url(#a4)"/>
+  <rect x="270" y="286" width="460" height="90" rx="4" fill="#fdf6e6" stroke="#b8860b" stroke-width="1.8"/>
+  <text x="500" y="310" font-size="16" font-weight="600" text-anchor="middle" fill="#7a5a08">2 &#183; Discriminating?</text>
+  <text x="500" y="332" font-size="14" text-anchor="middle" fill="#7a5a08">do inputs on both sides of the boundary produce</text>
+  <text x="500" y="350" font-size="14" text-anchor="middle" fill="#7a5a08"><tspan font-weight="600">different legacy outputs</tspan> &#8212; is the boundary actually live?</text>
+  <text x="500" y="368" font-size="13" font-family="Consolas, monospace" text-anchor="middle" fill="#7a5a08">&#8377;99,999 &#8594; ?  &#183;  &#8377;1,00,000 &#8594; ?  &#183;  &#8377;1,00,001 &#8594; ?</text>
+  <path d="M730 331 L800 331" stroke="#b3402f" stroke-width="1.4" marker-end="url(#ared4)"/>
+  <text x="806" y="326" font-size="14" font-weight="600" fill="#8f2f21">no</text>
+  <text x="806" y="344" font-size="13" fill="#8f2f21">&#8594; REFUTED</text>
+
+  <!-- test 3 -->
+  <path d="M500 376 L500 404" stroke="#6b6b6b" stroke-width="1.5" marker-end="url(#a4)"/>
+  <rect x="310" y="408" width="380" height="54" rx="4" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.4"/>
+  <text x="500" y="430" font-size="16" font-weight="600" text-anchor="middle" fill="#1a1a1a">3 &#183; Agreed?</text>
+  <text x="500" y="451" font-size="14" text-anchor="middle" fill="#6b6b6b">did the rewrite match the legacy on all of them?</text>
+  <path d="M690 435 L800 435" stroke="#b3402f" stroke-width="1.4" marker-end="url(#ared4)"/>
+  <text x="806" y="430" font-size="14" font-weight="600" fill="#8f2f21">no</text>
+  <text x="806" y="448" font-size="13" fill="#8f2f21">&#8594; DIVERGENCE</text>
+
+  <path d="M500 462 L500 486" stroke="#2e7d5b" stroke-width="1.8" marker-end="url(#agreen4)"/>
+  <rect x="370" y="490" width="260" height="44" rx="4" fill="#eef4ef" stroke="#2e7d5b" stroke-width="1.6"/>
+  <text x="500" y="518" font-size="18" font-weight="600" text-anchor="middle" fill="#1a4f38">PROVEN</text>
+
+  <!-- the payoff -->
+  <rect x="60" y="556" width="880" height="66" rx="4" fill="#fbeeeb" stroke="#b3402f" stroke-width="1.3"/>
+  <text x="84" y="580" font-size="16" font-weight="600" fill="#8f2f21">Why the middle test matters most</text>
+  <text x="84" y="602" font-size="15" fill="#8f2f21">A rule whose boundary makes no difference to the output is not untested &#8212; it is <tspan font-weight="600">contradicted</tspan>. Condition 2 fails</text>
+  <text x="84" y="620" font-size="15" fill="#8f2f21">exactly when the extraction layer invented a rule that is not in the program. That is our own AI, caught by our own harness.</text>
+
+  <defs>
+    <marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b6b6b"/>
+    </marker>
+    <marker id="ared4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b3402f"/>
+    </marker>
+    <marker id="agold4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b8860b"/>
+    </marker>
+    <marker id="agreen4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e7d5b"/>
+    </marker>
+  </defs>
+</svg>

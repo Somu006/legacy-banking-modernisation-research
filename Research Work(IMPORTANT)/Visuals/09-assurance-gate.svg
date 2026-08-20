@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="1000" height="540" fill="#ffffff"/>
+
+  <text x="40" y="44" font-size="25" font-weight="600" fill="#1a1a1a">The spend is already committed. Assurance is the gate.</text>
+  <line x1="40" y1="60" x2="960" y2="60" stroke="#d4d0c8" stroke-width="1"/>
+
+  <text x="40" y="96" font-size="13" letter-spacing="1.4" fill="#8a8a8a">THE COMMITTED SPEND</text>
+
+  <!-- committed spend -->
+  <rect x="40" y="112" width="210" height="104" rx="4" fill="#f7f5f2" stroke="#b8b2a8" stroke-width="1.2"/>
+  <text x="145" y="146" font-size="19" font-weight="600" text-anchor="middle" fill="#1a1a1a">~$1bn / 5–10 yrs</text>
+  <text x="145" y="170" font-size="14" text-anchor="middle" fill="#6b6b6b">Indian core-banking</text>
+  <text x="145" y="190" font-size="14" text-anchor="middle" fill="#6b6b6b">upgrades (BCG, 2024)</text>
+
+  <path d="M258 164 L310 164" stroke="#6b6b6b" stroke-width="1.6" marker-end="url(#ar9)"/>
+
+  <!-- generation, solved -->
+  <rect x="318" y="112" width="230" height="104" rx="4" fill="#eef4ef" stroke="#2e7d5b" stroke-width="1.4"/>
+  <text x="433" y="146" font-size="19" font-weight="600" text-anchor="middle" fill="#1a4f38">The new code exists</text>
+  <text x="433" y="170" font-size="14" text-anchor="middle" fill="#2e7d5b">generation commoditised</text>
+  <text x="433" y="190" font-size="14" text-anchor="middle" fill="#2e7d5b">AWS · IBM · TCS ship it</text>
+
+  <path d="M556 164 L608 164" stroke="#6b6b6b" stroke-width="1.6" marker-end="url(#ar9)"/>
+
+  <!-- the gate -->
+  <rect x="616" y="88" width="34" height="152" fill="#fbeeeb" stroke="#b3402f" stroke-width="1.4"/>
+  <line x1="616" y1="88" x2="650" y2="122" stroke="#b3402f" stroke-width="1"/>
+  <line x1="616" y1="122" x2="650" y2="156" stroke="#b3402f" stroke-width="1"/>
+  <line x1="616" y1="156" x2="650" y2="190" stroke="#b3402f" stroke-width="1"/>
+  <line x1="616" y1="190" x2="650" y2="224" stroke="#b3402f" stroke-width="1"/>
+  <line x1="616" y1="206" x2="650" y2="240" stroke="#b3402f" stroke-width="1"/>
+
+  <!-- run on real money -->
+  <rect x="680" y="112" width="280" height="104" rx="4" fill="#ffffff" stroke="#cfcac2" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="820" y="152" font-size="19" font-weight="600" text-anchor="middle" fill="#a09a92">Run on real money</text>
+  <text x="820" y="178" font-size="14" text-anchor="middle" fill="#a09a92">the step the budget is waiting on</text>
+
+  <!-- gate label -->
+  <path d="M633 240 L633 268" stroke="#b3402f" stroke-width="1.6"/>
+  <rect x="40" y="272" width="920" height="76" rx="4" fill="#fbeeeb" stroke="#b3402f" stroke-width="1.4"/>
+  <text x="64" y="302" font-size="18" font-weight="600" fill="#8f2f21">The gate is assurance — and it has no product category.</text>
+  <text x="64" y="330" font-size="15" fill="#8f2f21">Today it is absorbed as consulting hours and schedule risk, between &#8220;the new code exists&#8221; and &#8220;we are willing to run it&#8221;.</text>
+
+  <!-- adjacency strip -->
+  <text x="40" y="392" font-size="13" letter-spacing="1.4" fill="#8a8a8a">THE ADJACENT PRODUCTS</text>
+  <rect x="40" y="406" width="920" height="58" rx="4" fill="#f7f5f2" stroke="#b8b2a8" stroke-width="1"/>
+  <text x="64" y="430" font-size="15" fill="#1a1a1a">AWS Transform for mainframe &#183; IBM watsonx Code Assistant for Z &#183; Mechanical Orchard Imogen</text>
+  <text x="64" y="452" font-size="14" fill="#6b6b6b">all generate first — validation is a feature of generation, not the product being sold</text>
+
+  <rect x="40" y="478" width="920" height="46" rx="4" fill="#f3eef7" stroke="#6b4a8a" stroke-width="1.2"/>
+  <text x="64" y="507" font-size="15" font-weight="600" fill="#4a3266">Us: we build the gate itself — the proof is the product.</text>
+  <text x="936" y="507" font-size="14" text-anchor="end" fill="#6b4a8a">positioning claim, not a market statistic — see 08 §2</text>
+
+  <defs>
+    <marker id="ar9" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#6b6b6b"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,496 @@
+% ============================================================================
+%  Legacy Banking Modernisation Platform - Bibliography
+%  Team StudyEdge, Digital Nurture Hackathon 2026
+%
+%  Author lists and venues below were verified individually against arXiv,
+%  conference and publisher pages on 2026-08-04. Entries whose metadata could
+%  NOT be verified are commented out in the INCOMPLETE block at the bottom.
+%  Complete them before use - do not uncomment and hope.
+% ============================================================================
+
+
+% ---------------------------------------------------------------------------
+%  LLM CODE TRANSLATION: RELIABILITY
+% ---------------------------------------------------------------------------
+
+@inproceedings{pan2024lost,
+  author    = {Pan, Rangeet and Ibrahimzada, Ali Reza and Krishna, Rahul and
+               Sankar, Divya and Wassi, Lambert Pouguem and Merler, Michele and
+               Sobolev, Boris and Pavuluri, Raju and Sinha, Saurabh and
+               Jabbarvand, Reyhaneh},
+  title     = {Lost in Translation: A Study of Bugs Introduced by Large
+               Language Models while Translating Code},
+  booktitle = {Proceedings of the IEEE/ACM 46th International Conference on
+               Software Engineering (ICSE)},
+  year      = {2024},
+  eprint    = {2308.03109},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url       = {https://arxiv.org/abs/2308.03109},
+  note      = {Correct translations range from 2.1\% to 47.3\% across studied
+               LLMs; 1,700 code samples, 1,748 manually labelled bugs in 15
+               categories. Accessed 2026-08-04}
+}
+
+@misc{rabbi2026beyond,
+  author = {Rabbi, Fazle and Saha, Soumit Kanti and Yang, Jinqiu},
+  title  = {Beyond Translation Accuracy: Addressing False Failures in
+            {LLM}-Based Code Translation},
+  year   = {2026},
+  eprint = {2605.02195},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2605.02195},
+  note   = {Concordia University. Silent failures from operator-semantics
+            differences across languages. Authors verified from the downloaded
+            PDF, 2026-08-04. Local copy: pdfs/arxiv-2605.02195-*.pdf}
+}
+
+
+% ---------------------------------------------------------------------------
+%  COBOL TRANSLATION VALIDATION  (the core prior art)
+% ---------------------------------------------------------------------------
+
+@misc{hans2025automatedtesting,
+  author = {Hans, Sandeep and Kumar, Atul and Yasue, Toshikai and Ono, Kouichi
+            and Krishnan, Saravanan and Sondhi, Devika and Satoh, Fumiko and
+            Mitchell, Gerald and Kumar, Sachin and Saha, Diptikalyan},
+  title  = {Automated Testing of {COBOL} to {Java} Transformation},
+  year   = {2025},
+  month  = apr,
+  eprint = {2504.10548},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  doi    = {10.48550/arXiv.2504.10548},
+  url    = {https://arxiv.org/abs/2504.10548},
+  note   = {Testing framework for IBM watsonx Code Assistant for Z. Source of
+            the quotable admission that translated code cannot be trusted.
+            Symbolic execution generates COBOL unit tests, converted to JUnit.
+            Accessed 2026-08-04}
+}
+
+@misc{kumar2025automatedvalidation,
+  author = {Kumar, Atul and Saha, Diptikalyan and Yasue, Toshikai and
+            Ono, Kohichi and Krishnan, Saravanan and Hans, Sandeep and
+            Satoh, Fumiko and Mitchell, Gerald and Kumar, Sachin},
+  title  = {Automated Validation of {COBOL} to {Java} Transformation},
+  year   = {2025},
+  eprint = {2506.10999},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2506.10999},
+  note   = {Companion to hans2025automatedtesting; venue reported as ASE 2024.
+            Submission date reported inconsistently with the arXiv identifier -
+            VERIFY THE DATE before citing. Accessed 2026-08-04}
+}
+
+@misc{ferenczi2026locksmith,
+  author = {Ferenczi, Andras and Docherty, Jordan and Bessonov, Mariya and
+            Findlay, Matthew and Lingamneni, Krishna},
+  title  = {Agentic Method for Deterministic Validation of Legacy Code
+            Migration},
+  year   = {2026},
+  month  = jul,
+  eprint = {2607.28271},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2607.28271},
+  note   = {The ``Locksmith Loop''. Closest prior art to this project: legacy
+            as execution oracle via a Parity Gate, both targets run
+            off-mainframe on commodity hardware, Witness Search input
+            generation. 91.90\% branch coverage on a production-like program.
+            11 pages, 6 figures. Published 2026-07-30. Accessed 2026-08-04}
+}
+
+@misc{froimovich2025quality,
+  author = {Froimovich, Shmulik and Gal, Raviv and Ibraheem, Wesam and
+            Ziv, Avi},
+  title  = {Quality Evaluation of {COBOL} to {Java} Code Transformation},
+  year   = {2025},
+  month  = jul,
+  eprint = {2507.23356},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2507.23356},
+  note   = {IBM Research. Analytic checkers plus LLM-as-a-judge. Submitted to
+            ASE 2025. Accessed 2026-08-04}
+}
+
+@misc{entin2026sedcot,
+  author = {Entin, Phillip and Gu, Wenchao and Knapp, Alexander and
+            Chen, Chunyang},
+  title  = {{SEDCoT}: Enhancing {LLM}-Based {COBOL} Code Translation via
+            Symbolic Execution and Delta Debugging},
+  year   = {2026},
+  month  = jul,
+  eprint = {2607.04092},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2607.04092},
+  note   = {COBOL-to-C. Three phases: translate, symbolic-execution repair,
+            delta debugging. At least 12\% over state-of-the-art baselines.
+            Accessed 2026-08-04}
+}
+
+
+% ---------------------------------------------------------------------------
+%  BUSINESS RULE EXTRACTION
+% ---------------------------------------------------------------------------
+
+@inproceedings{shah2025acobrex,
+  author    = {Shah, Samveg and Agarwal, Shivali and Krishnan, Saravanan and
+               Kanvar, Vini and Chimalakonda, Sridhar},
+  title     = {{A-COBREX}: A Tool for Identifying Business Rules in {COBOL}
+               Programs},
+  booktitle = {Proceedings of the IEEE/ACM 47th International Conference on
+               Software Engineering (ICSE), Demonstrations Track},
+  year      = {2025},
+  url       = {https://research.ibm.com/publications/a-cobrex-a-tool-for-identifying-business-rules-in-cobol-programs},
+  note      = {IIT Tirupati and IBM Research India. Recall 74.12\%, precision
+               62.21\% for fuzzy match against ground truth on 27 annotated
+               programs. Accessed 2026-08-04}
+}
+
+@inproceedings{bs2025cobrain,
+  author    = {B S, Chiranjeevi and Chimalakonda, Sridhar},
+  title     = {{LLM} Vs Rule-Based --- The {COBRAIN} Tool and An Empirical
+               Study on Extracting Business Rules from {COBOL}},
+  booktitle = {Proceedings of the 29th International Conference on Evaluation
+               and Assessment in Software Engineering (EASE)},
+  year      = {2025},
+  doi       = {10.1145/3756681.3756982},
+  url       = {https://dl.acm.org/doi/10.1145/3756681.3756982},
+  note      = {IIT Tirupati. Precision 1.0, recall 0.746 vs COBREX; F1 0.73 vs
+               COBREX 0.59 against ground truth. Over 80\% of 28 participants
+               found COBRAIN output more understandable. Accessed 2026-08-04}
+}
+
+@misc{ahmed2026agentmodernize,
+  author = {Ahmed, Sheikh Nazib and Galib, Marnim},
+  title  = {{AgentModernize}: Preserving Business Logic in Legacy Modernization
+            with Multi-Agent {LLMs} and Behavioral Specification Graphs},
+  year   = {2026},
+  month  = may,
+  eprint = {2605.17535},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2605.17535},
+  note   = {Defines Business Rule Preservation Score and Behavioural
+            Equivalence Rate. BSG captured 91.2\% of gold-standard rules; BER
+            9.4\%/8.1\%/19.4\% across models, baselines 0.0\%. 11 pages.
+            Accessed 2026-08-04}
+}
+
+
+% ---------------------------------------------------------------------------
+%  HALLUCINATION AND TEST INPUT GENERATION
+%  (author lists recovered from the downloaded PDFs, 2026-08-04)
+% ---------------------------------------------------------------------------
+
+@misc{liu2024beyond,
+  author = {Liu, Fang and Liu, Yang and Shi, Lin and Yang, Zhen and
+            Zhang, Li and Lian, Xiaoli and Li, Zhongqi and Ma, Yuchi},
+  title  = {Beyond Functional Correctness: Exploring Hallucinations in
+            {LLM}-Generated Code},
+  year   = {2024},
+  eprint = {2404.00971},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2404.00971},
+  note   = {Beihang University, Shandong University, Huawei Cloud. Taxonomy of
+            3 primary and 12 specific hallucination categories. 21 pages.
+            Local copy: pdfs/arxiv-2404.00971-*.pdf}
+}
+
+@misc{guo2025boundary,
+  author = {Guo, Xiujing and Li, Chen and Tsuchiya, Tatsuhiro},
+  title  = {Boundary Value Test Input Generation Using Prompt Engineering with
+            {LLMs}: Fault Detection and Coverage Analysis},
+  year   = {2025},
+  eprint = {2501.14465},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2501.14465},
+  note   = {Osaka University and Nagoya University. Supports the rule-directed
+            boundary generation in N5. 11 pages. Local copy:
+            pdfs/arxiv-2501.14465-*.pdf}
+}
+
+@misc{yang2025business,
+  author = {Yang, Chen and Xu, Ruping and Li, Ruizhe and Cao, Bin and
+            Fan, Jing},
+  title  = {Business as {Rulesual}: A Benchmark and Framework for Business Rule
+            Flow Modeling with {LLMs}},
+  year   = {2025},
+  eprint = {2505.18542},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url    = {https://arxiv.org/abs/2505.18542},
+  note   = {Zhejiang University of Technology, Aberdeen, Birmingham. BREX
+            benchmark; 13 SOTA LLMs; expert annotation with ICC/Kappa
+            agreement. 23 pages. Local copy: pdfs/arxiv-2505.18542-*.pdf}
+}
+
+
+% ---------------------------------------------------------------------------
+%  TESTING THEORY
+% ---------------------------------------------------------------------------
+
+@article{barr2015oracle,
+  author  = {Barr, Earl T. and Harman, Mark and McMinn, Phil and
+             Shahbaz, Muzammil and Yoo, Shin},
+  title   = {The Oracle Problem in Software Testing: A Survey},
+  journal = {IEEE Transactions on Software Engineering},
+  volume  = {41},
+  number  = {5},
+  pages   = {507--525},
+  year    = {2015},
+  month   = may,
+  doi     = {10.1109/TSE.2014.2372785},
+  url     = {https://ieeexplore.ieee.org/document/6963470/},
+  note    = {The canonical survey. Differential testing as a mitigation for the
+             oracle problem. Accessed 2026-08-04}
+}
+
+@article{chen2018metamorphic,
+  author  = {Chen, Tsong Yueh and Kuo, Fei-Ching and Liu, Huai and
+             Poon, Pak-Lok and Towey, Dave and Tse, T. H. and Zhou, Zhi Quan},
+  title   = {Metamorphic Testing: A Review of Challenges and Opportunities},
+  journal = {ACM Computing Surveys},
+  volume  = {51},
+  number  = {1},
+  pages   = {4:1--4:27},
+  year    = {2018},
+  doi     = {10.1145/3143561},
+  url     = {https://dl.acm.org/doi/10.1145/3143561},
+  note    = {Metamorphic relations as an oracle-problem mitigation. Accessed
+             2026-08-04}
+}
+
+
+% ---------------------------------------------------------------------------
+%  ORCHESTRATION
+% ---------------------------------------------------------------------------
+
+@misc{lwin2026deterministic,
+  author = {Lwin, Naing Oo and Kumar, Rajesh},
+  title  = {Deterministic vs. {LLM}-Controlled Orchestration for
+            {COBOL}-to-{Python} Modernization},
+  year   = {2026},
+  month  = may,
+  eprint = {2605.09894},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SE},
+  url    = {https://arxiv.org/abs/2605.09894},
+  note   = {Deterministic execution reduces token consumption by up to 3.5x at
+            comparable accuracy, with better worst-case robustness. The
+            justification for a fixed pipeline over an agentic one. Accessed
+            2026-08-04}
+}
+
+
+% ---------------------------------------------------------------------------
+%  REGULATION
+% ---------------------------------------------------------------------------
+
+@misc{rbi2016deposits,
+  author       = {{Reserve Bank of India}},
+  title        = {Master Direction --- Reserve Bank of India (Interest Rate on
+                  Deposits) Directions, 2016},
+  year         = {2016},
+  month        = mar,
+  howpublished = {\url{https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10296}},
+  note         = {Issued 2016-03-03, updated as on 2024-06-07. Clause 6(a)
+                  daily product basis; 6(a)(1)--(2) uniform rate to Rs. 1 lakh
+                  and differential rates above; 4(f) rounding to the nearest
+                  rupee for rupee deposits, two decimal places for FCNR(B).
+                  A 2025 restatement exists and uses a DIFFERENT, DECIMAL
+                  paragraph numbering (e.g. 4.22, 20.2.1, 29.5) per RBI's own
+                  2025 FAQ - so these 2016 clause references do NOT carry over.
+                  Cite the 2016 Direction. Local copy of the 2025 FAQ:
+                  pdfs/rbi-faq-interest-rate-on-deposits-2025.pdf.
+                  Accessed 2026-08-04}
+}
+
+@misc{rbi2023itgov,
+  author       = {{Reserve Bank of India}},
+  title        = {Master Direction on Information Technology Governance, Risk,
+                  Controls and Assurance Practices},
+  year         = {2023},
+  month        = nov,
+  howpublished = {\url{https://www.rbi.org.in/}},
+  note         = {Issued 2023-11-07, effective 2024-04-01. Requires a
+                  board-approved IT governance framework and Change Management
+                  Policy. Accessed 2026-08-04}
+}
+
+@misc{fca2022tsb,
+  author       = {{Financial Conduct Authority}},
+  title        = {{TSB} fined {\pounds}48.65m for operational resilience
+                  failings},
+  year         = {2022},
+  month        = dec,
+  howpublished = {\url{https://www.fca.org.uk/news/press-releases/tsb-fined-48m-operational-resilience-failings}},
+  note         = {Joint FCA/PRA penalty of {\pounds}48,650,000; {\pounds}32.7m
+                  customer redress. The regulator says ``a significant
+                  proportion of its 5.2 million customers'' --- the widely
+                  quoted 1.9 million figure is press reporting, not FCA.
+                  Accessed 2026-08-04}
+}
+
+
+% ---------------------------------------------------------------------------
+%  TOOLS, STANDARDS AND DATASETS
+% ---------------------------------------------------------------------------
+
+@misc{gnucobol,
+  author       = {{GnuCOBOL Project}},
+  title        = {{GnuCOBOL}},
+  howpublished = {\url{https://gnucobol.sourceforge.io/}},
+  note         = {GPL compiler, LGPL runtime. 19 COBOL dialects; version 3.2
+                  adds -std=ibm-strict aligned to Enterprise COBOL 6.3. Passes
+                  9,700 of 9,748 NIST COBOL-85 tests but does NOT claim to be a
+                  Standard Conforming implementation. Accessed 2026-08-04}
+}
+
+@misc{proleap,
+  author       = {Wolf, Ulrich},
+  title        = {{ProLeap} {COBOL} Parser},
+  howpublished = {\url{https://github.com/uwol/proleap-cobol-parser}},
+  note         = {ANTLR4 grammar producing AST and Abstract Semantic Graph with
+                  data and control flow. Handles COPY/REPLACE; extracts EXEC
+                  SQL and EXEC CICS as text. MIT licence. Passes the NIST
+                  suite. AUTHOR ATTRIBUTION INFERRED FROM THE REPOSITORY OWNER
+                  - confirm before citing. Accessed 2026-08-04}
+}
+
+@misc{nistccvs85,
+  author       = {{National Institute of Standards and Technology}},
+  title        = {{COBOL} Compiler Validation System ({CCVS85}), ANSI
+                  {X3.23-1985} / {ISO} 1989-1985},
+  year         = {1992},
+  howpublished = {\url{https://github.com/Zaneham/nist-cobol85-test-suite}},
+  note         = {512 test programs, 8,800+ individual test cases. Public
+                  domain. Accessed 2026-08-04}
+}
+
+@misc{carddemo,
+  author       = {{Amazon Web Services}},
+  title        = {{AWS} Mainframe Modernization {CardDemo}},
+  howpublished = {\url{https://github.com/aws-samples/aws-mainframe-modernization-carddemo}},
+  note         = {Apache 2.0 COBOL credit-card application, deliberately varied
+                  coding styles. NOTE: CBACT04C.cbl reads four VSAM files and
+                  calls FUNCTION CURRENT-DATE, so it is excluded by this
+                  project's determinism scope. Accessed 2026-08-04}
+}
+
+@misc{diffy,
+  author       = {{Twitter, Inc.}},
+  title        = {{Diffy}: Find potential bugs in your services},
+  howpublished = {\url{https://github.com/twitter-archive/diffy}},
+  note         = {Multicast proxy comparing responses from old and new service
+                  instances. Used at Twitter, Airbnb, Baidu, ByteDance.
+                  Archived; maintained fork at github.com/opendiffy/diffy.
+                  Accessed 2026-08-04}
+}
+
+
+% ---------------------------------------------------------------------------
+%  INDUSTRY AND VENDOR
+% ---------------------------------------------------------------------------
+
+@misc{ibmwca4z,
+  author       = {{IBM}},
+  title        = {About {IBM} watsonx Code Assistant for {Z}},
+  howpublished = {\url{https://www.ibm.com/docs/en/watsonx/watsonx-code-assistant-4z/2.x?topic=welcome-overview-watsonx-code-assistant-z}},
+  note         = {Validation Assistant checks semantic equivalence between
+                  refactored COBOL and transformed Java via automated test
+                  generation. Accessed 2026-08-04}
+}
+
+@misc{awstransform2025,
+  author       = {{Amazon Web Services}},
+  title        = {{AWS} Transform for mainframe is now generally available},
+  year         = {2025},
+  month        = may,
+  howpublished = {\url{https://aws.amazon.com/about-aws/whats-new/2025/05/aws-transform-mainframe-generally-available}},
+  note         = {First agentic AI mainframe modernisation service. ADP cut
+                  rule-extraction time by 80\% and manual effort by over 90\%.
+                  Supersedes the AWS Mainframe Modernization / Blu Age product
+                  naming. Accessed 2026-08-04}
+}
+
+@misc{mechanicalorchard,
+  author       = {{Mechanical Orchard}},
+  title        = {{Imogen} Platform},
+  howpublished = {\url{https://www.mechanical-orchard.com/platform}},
+  note         = {Generate-validate loop proving behavioural equivalence.
+                  Verifies against real production data, slice by slice.
+                  Accessed 2026-08-04}
+}
+
+@misc{cognizantgenai,
+  author       = {{Cognizant}},
+  title        = {How generative {AI} accelerates mainframe modernization},
+  howpublished = {\url{https://www.cognizant.com/us/en/insights/insights-blog/generative-ai-for-mainframe-modernization}},
+  note         = {Reverse engineering to fill documentation gaps, extract
+                  business rules, generate specifications for parity. Notably
+                  describes no validation or equivalence testing. Accessed
+                  2026-08-04}
+}
+
+@misc{bcg2024core,
+  author       = {{Boston Consulting Group}},
+  title        = {Cloud-based Core Transformations},
+  year         = {2024},
+  month        = aug,
+  howpublished = {\url{https://www.business-standard.com/industry/banking/indian-lenders-need-1-billion-upgrade-core-bank-systems-says-bcg-124080101587_1.html}},
+  note         = {Indian lenders need ~\$1bn over 5--10 years to upgrade legacy
+                  core banking. Indian bank IT spend up to 5\% of revenue vs
+                  7--9\% globally; ~80\% of IT budget on ``run the bank''.
+                  CITED VIA Business Standard reporting - the primary BCG
+                  report was not obtained. Accessed 2026-08-04}
+}
+
+
+% ============================================================================
+%  INCOMPLETE - metadata could not be verified on 2026-08-04.
+%  Complete the author fields from the URL before uncommenting.
+% ============================================================================
+%
+% @inproceedings{cobrex,
+%   author    = {INCOMPLETE - see https://www.semanticscholar.org/paper/543a21dba8546db505057b0c4b4f096b9e981f24},
+%   title     = {{COBREX}: A Tool for Extracting Business Rules from {COBOL}},
+%   note      = {Rule-based CFG slicing. F1 ~0.59 against ground truth.}
+% }
+%
+% @inproceedings{cosentino2013,
+%   author    = {Cosentino, Valerio and others (INCOMPLETE)},
+%   title     = {Extracting Business Rules from {COBOL}: A Model-Based
+%                Framework},
+%   note      = {HAL hal-00869235. First author verified; full list and venue
+%                not confirmed - the HAL page blocked automated access.}
+% }
+%
+% @inproceedings{cadar2008klee,
+%   author    = {Cadar, Cristian and Dunbar, Daniel and Engler, Dawson},
+%   title     = {{KLEE}: Unassisted and Automatic Generation of High-Coverage
+%                Tests for Complex Systems Programs},
+%   booktitle = {OSDI},
+%   year      = {2008},
+%   note      = {FROM MEMORY, NOT VERIFIED IN THIS PASS. High confidence but
+%                confirm the page range and proceedings title.}
+% }
+%
+% @article{hallucination_summarization,
+%   author  = {INCOMPLETE},
+%   title   = {Hallucinations in {LLM}-Based Code Summarization: Unveiling,
+%              Detection, and Mitigation},
+%   journal = {Proceedings of the ACM on Software Engineering},
+%   doi     = {10.1145/3808139},
+%   note    = {Hallucination rates 66\% reduced to 59\%; Hallu-Det F1 0.95.}
+% }
+%
+% (Three former INCOMPLETE entries were completed from the downloaded PDFs on
+%  2026-08-04 and promoted into the active bibliography above: liu2024beyond,
+%  guo2025boundary, yang2025business.)

@@ -1,0 +1,33 @@
+# --- Google Drive sync artefacts -------------------------------------------
+# This folder is Drive-synced; these are Drive/Windows metadata, not content.
+desktop.ini
+.tmp.driveupload/
+.tmp.drivedownload/
+*.gdoc
+*.gsheet
+*.gslides
+
+# --- OS junk ----------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+.DS_Store
+._*
+
+# --- Office lock files ------------------------------------------------------
+~$*
+*.tmp
+
+# --- Secrets — never commit -------------------------------------------------
+# The prototype repo holds the real .env; nothing here should ever have one.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# --- Build scratch ----------------------------------------------------------
+# build-pdf.py writes this then deletes it; ignore in case a run is interrupted.
+_build.html
+_*_build.html
+__pycache__/
+*.pyc

@@ -1,0 +1,15 @@
+# Normalise line endings for text; keep binaries byte-exact.
+* text=auto
+
+*.md   text
+*.py   text
+*.js   text
+*.svg  text
+*.bib  text
+*.txt  text
+
+*.pdf  binary
+*.pptx binary
+*.png  binary
+*.jpg  binary
+*.zip  binary
